@@ -50,11 +50,5 @@ end
 
 def winner(board)
   winning_combination = won?(board)
-  if board[winning_combination[0]].include?("X")
-    "X"
-  elsif board[winning_combination[0]].include?("O")
-    "O"
-  else
-    nil
-  end
+  winning_combination[0]
 end
