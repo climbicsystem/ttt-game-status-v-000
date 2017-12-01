@@ -56,6 +56,6 @@ def winner(board)
   elsif board[winning_combination[0]].include?("O")
     "O"
   else
-    nil
+    puts "No winners here!"
   end
 end
