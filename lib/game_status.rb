@@ -49,7 +49,6 @@ def over?(board)
 end
 
 def winner(board)
-
   winning_combination = won?(board)
   if board[winning_combination[0]].include?("X")
     "X"
